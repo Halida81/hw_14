@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
 function Box() {
-
-
 	const ref = useRef()
 	const [state, setState] = useState(null)
 	const color = {
